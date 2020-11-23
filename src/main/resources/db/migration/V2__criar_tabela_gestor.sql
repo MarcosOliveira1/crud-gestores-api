@@ -1,4 +1,4 @@
-CREATE TABLE public.
+CREATE TABLE public.gestor
 (
   id serial NOT NULL,
   data_nascimento date,
