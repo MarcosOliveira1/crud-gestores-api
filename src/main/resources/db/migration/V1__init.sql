@@ -1,14 +1,4 @@
-CREATE TABLE public.gestor
-(
-  id serial NOT NULL,
-  data_nascimento date,
-  matricula character varying(255),
-  nome character varying(255),
-  setor character varying(255),
-  CONSTRAINT gestor_pkey PRIMARY KEY (id)
-)
-WITH (
-  OIDS=FALSE
-);
-ALTER TABLE public.gestor
-  OWNER TO postgres;
+CREATE DATABASE crudgestores
+ENCODING = 'UTF8'
+LC_COLLATE = 'Portuguese_Brazil.1252'
+LC_CTYPE = 'Portuguese_Brazil.1252';
